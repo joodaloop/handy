@@ -151,3 +151,8 @@ Twitter Card (large image card) tags, used by...just Twitter
 ```
 
 **Note:** These tags will generate the large image, which Twitter currently renders as just an image with a small link watermark. If you want to use the smaller card (shown below), that shows the title and description, change the `content` to `summary_image` instead.
+
+
+## Details
+
+Password allowed characters follows [this list](https://owasp.org/www-community/password-special-characters)
