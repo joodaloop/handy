@@ -7,7 +7,9 @@
 ## generation
 * UUIDs – *handy.generate.uuidv4()*
 * Snowflake-ids – *handy.generate.snowflake()*
-* hashing: 
+* nanoid
+
+## hashing: 
   * MD5 - *handy.hash.md5(text, salt?)*
   * SHA256 – *handy.hash.sha256(text, salt?)*
   * SHA2 – *handy.hash.sha2(text, salt?)*
@@ -57,9 +59,8 @@
 * draggable?
 https://github.com/gnat/surreal
 
-## Forms
-* invisible input
-* validation
+
+## validation
   * email
   * password
     * Only numbers, letters, special characters. Pass in an allow array .
@@ -68,12 +69,16 @@ https://github.com/gnat/surreal
     * Params: URL-safe, maxlength, character-sensitive. Reserved routes (Django list)
   * valid URL
     * type (ftp, https, http)
+
+## forms
 * serialise form input to json
 * populate form fields from json
-* Fetch wrapper
+
+## Fetch wrapper
 
 ## Reactivity
 * global stores - https://www.arrow-js.com
+* check nanostore
 
 
 ## Images
@@ -117,7 +122,7 @@ Clipboard
 * fuzzy search (fuse.js), search
 * micro-query - *handy.any(‘.selector’), handy.all(‘.selector’)*
 * micro-promisify - interesting
-* Google auth???
+* Google auth??? 
 
 
 # Social cards
