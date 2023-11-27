@@ -4,25 +4,10 @@
 * CSS reset, cross-browser consistency. one for UI, one for text pages.
 * Manipulate CSS custom properties.
 
-## generation
-* UUIDs – *handy.generate.uuidv4()*
-* Snowflake-ids – *handy.generate.snowflake()*
-* nanoid
-
-## hashing: 
-  * MD5 - *handy.hash.md5(text, salt?)*
-  * SHA256 – *handy.hash.sha256(text, salt?)*
-  * SHA2 – *handy.hash.sha2(text, salt?)*
-  * ~[Tinyhash](https://github.com/nodeleap/tinyhash)~ 
-  * Murmurhash – *handy.hash.murmur(text, salt?)*
-  * scrypt – *handy.hash.scrypt(text, salt?)*
-
 ## string manipulation
 * truncate text
 * slugify
 * strip html
-* sanitise
-* base64 encode/decode,
 * pad
 * valid CSS colours
 * color conversion
@@ -46,20 +31,6 @@
 * delay, ~[denounce, throttle](https://garden.bradwoods.io/notes/javascript/performance/debounce-throttle)~, ~[memoize](https://garden.bradwoods.io/notes/javascript/performance/memoization)~, timer
 * Common animation utilities
 
-## UI
-* modals (microModal)
-* tooltips (microTip, Tippy)
-* slide from bottom modal?
-* keyboard shortcuts
-* mobile touch?
-* Simple bar, TinySlider (for scroll bars)
-* smooth scroll
-* autocomplete
-* Simple toast component
-* draggable?
-https://github.com/gnat/surreal
-
-
 ## validation
   * email
   * password
@@ -69,6 +40,7 @@ https://github.com/gnat/surreal
     * Params: URL-safe, maxlength, character-sensitive. Reserved routes (Django list)
   * valid URL
     * type (ftp, https, http)
+    * without type
 
 ## forms
 * serialise form input to json
@@ -79,7 +51,6 @@ https://github.com/gnat/surreal
 ## Reactivity
 * global stores - https://www.arrow-js.com
 * check nanostore
-
 
 ## Images
 * canvas to blob
